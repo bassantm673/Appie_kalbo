@@ -1,0 +1,136 @@
+/* 
+background-color: #0A043C or #0A2647
+ rgb(238, 241, 246)
+
+button:#FF3E66
+icons:#47b5ff #f94892 #3c79f5 #ff7b54 #36ae7c #f65a83 #7978ff #ced4da 
+
+font color #0E1133 rgb rgb(27, 32, 78)
+ #495057;
+ btn #ced4da #adb5bd
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   line-height: 1;
+   color: rgb(27, 32, 78);
+}
+
+.first-head {
+   font-size: 5.6rem;
+   font-weight: 300;
+   line-height: 1.2;
+   letter-spacing: .6px;
+   color: #0E1133;
+}
+
+.second-head {
+   font-size: 3.98rem;
+   font-weight: 600;
+   letter-spacing: -1px;
+   line-height: 4.2rem;
+   /* padding: 0 5rem; */
+}
+
+.third-head {
+   font-size: 1.75rem;
+   font-weight: 600;
+   letter-spacing: .3px;
+}
+
+.forth-head {
+   font-size: 2.38rem;
+   color: #fff;
+
+}
+
+.footer-head {
+   font-size: 2.3rem;
+   color: #0E1133;
+   font-weight: 600;
+   margin-bottom: 1.5rem;
+}
+
+.container {
+   max-width: 120rem;
+   padding: 0 3rem;
+   margin: 0 auto;
+
+}
+
+.header {
+   display: flex;
+   height: 9.6rem;
+   padding: 0rem 5rem;
+   background-color: rgb(238, 241, 246);
+   align-items: center;
+   justify-content: space-between;
+}
+
+.text {
+   font-size: 1.7rem;
+   color: #495057;
+   line-height: 2.3rem;
+   margin-bottom: 1.36rem;
+}
+
+.symbol {
+   width: 2rem;
+   height: 2rem;
+}
+
+.btn {
+   display: inline-block;
+   text-decoration: none;
+   font-size: 1.4rem;
+   padding: 1.3rem 2.5rem;
+   border: none;
+   border-radius: 10rem;
+   border: 1px solid #FF3E66;
+   font-weight: 500;
+   transition: all 0.3s;
+   cursor: pointer;
+   font-family: inherit;
+   transition: all 0.3s;
+
+}
+
+.symbol-font {
+   /* width: 5rem;
+   height: 5rem; */
+   width: 5rem;
+   height: 5rem;
+
+}

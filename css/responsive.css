@@ -1,0 +1,403 @@
+@media(max-width:1200px) {
+   html {
+      font-size: 57.5%;
+   }
+
+   .enter-email {
+      margin-right: 4rem;
+   }
+
+   .hero-section {
+      padding-left: 3rem;
+   }
+
+   .hero {
+      grid-template-columns: 1fr 1.2fr;
+   }
+
+   .container {
+      padding: 0 2rem;
+   }
+
+   .img-hero {
+      height: 100%;
+   }
+
+   .table {
+      padding: 4rem 2.5rem;
+   }
+
+   .section-markting .container {
+      padding: 0 3rem 0 3rem
+   }
+
+   .markting {
+      gap: 7rem
+   }
+
+   .markt-head {
+      padding: 0 4rem 1.5rem 0;
+   }
+
+   .markt-text {
+      padding-right: 0rem;
+   }
+
+   .need {
+      gap: 4.5rem;
+   }
+
+   .advantage {
+      margin-top: 2.5rem;
+      gap: 1.2rem
+   }
+
+   .desigen {
+      gap: 3px
+   }
+
+   .photo-markt {
+      height: 150%;
+      width: 118%;
+   }
+
+   .installtion {
+      gap: 7rem
+   }
+
+   .options {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   .section-download {
+      padding: 5rem 0rem 12rem 8.2rem;
+   }
+
+   .section-download .text {
+      padding-right: 45rem;
+   }
+}
+
+/* **************************
+below 1350px (smaller desktop)
+*********************** */
+@media(max-width:900px) {
+   html {
+      font-size: 55.5%;
+   }
+
+   .header span {
+      display: block;
+   }
+
+   .container {
+      padding: 0 4rem;
+   }
+
+   .main-nav-list {
+      display: none;
+   }
+
+   .hero {
+      grid-template-columns: 1fr;
+   }
+
+   .hero-section {
+      padding: 0 0 0 4rem
+   }
+
+   .photo-hero {
+      text-align: right;
+   }
+
+   .img-hero {
+      width: 70%
+   }
+
+
+   .big-table {
+      grid-template-columns: 1fr 1fr;
+      margin-top: 5rem;
+   }
+
+   .section-how-work .second-head {
+      text-align: center;
+   }
+
+   .descripe-bttn {
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .section-markting .container {
+      max-height: unset;
+   }
+
+   .photo-markt {
+      display: none;
+   }
+
+   .markting {
+      grid-template-columns: 1fr;
+   }
+
+   .table-need {
+      padding-bottom: 0;
+      align-items: center;
+   }
+
+   .need {
+      flex-direction: column;
+      gap: 5rem;
+      padding: 5rem 0 0 0;
+   }
+
+   .section-when-need {
+      padding: 9rem 0 3rem 0;
+   }
+
+   .bord-icon-l {
+      top: -28%;
+      left: -24%;
+   }
+
+
+   .photo-need {
+      width: 65%;
+      padding-left: 2rem;
+   }
+
+
+   .table-need {
+      padding-top: 0;
+   }
+
+   .market,
+   .markt-head,
+   .markt-text {
+      text-align: center;
+   }
+
+   .markt-head,
+   .markt-text {
+      padding: 0;
+      margin-bottom: 10px;
+   }
+
+   .installtion {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+   }
+
+   .vido-install {
+      flex-direction: column;
+   }
+
+   .vidd {
+      right: 48%;
+      margin-top: 14%;
+   }
+
+   .vidoe {
+      width: 100%;
+   }
+
+   .vido-head {
+      padding-left: 0;
+   }
+
+   .man-vid {
+      width: 90%;
+      margin: 0 4rem 0 4rem;
+   }
+
+   .section-video .descrip {
+      text-align: start;
+   }
+
+   .text-p {
+      margin-left: 0;
+   }
+
+   .section-download {
+      padding: 5rem 0rem 12rem 0rem;
+   }
+
+   .learn-icon {
+      display: none;
+   }
+
+   .section-download .market {
+      text-align: start;
+   }
+
+   .option {
+      width: 100%;
+   }
+
+
+   .plat-forms {
+      padding: 9rem;
+   }
+
+
+   .plat-form:nth-child(n+7) {
+      margin-right: 0rem;
+   }
+
+   .div-footer {
+      grid-template-columns: 2fr 1fr;
+   }
+
+   .touch {
+      margin-left: 0rem;
+   }
+
+   .review {
+      flex-direction: column;
+      gap: 3rem;
+      align-items: center;
+      padding: 5rem 1.5rem 3rem 1.5rem;
+      height: auto;
+   }
+
+   footer {
+      padding-right: 0;
+   }
+
+}
+
+@media(max-width:700px) {
+   html {
+      font-size: 45.5%;
+   }
+
+
+   .hero-section {
+      padding: 4rem 0 0rem 4rem;
+   }
+
+   .descrip {
+      text-align: center;
+      line-height: 2.7rem;
+   }
+
+   .big-table {
+      grid-template-columns: 1fr
+   }
+
+   .table {
+      text-align: center;
+   }
+
+   .table-icon,
+   .link-table {
+      margin: 0 auto;
+   }
+
+   .section-download .text {
+      padding-right: 0;
+   }
+
+   .advantage {
+      flex-direction: column;
+   }
+
+   .installtion {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+   }
+
+   .options {
+      flex-direction: column;
+      width: 95%;
+      margin: 0 auto;
+   }
+
+
+   .plat-forms {
+      padding: 2rem 2rem 4rem 2rem;
+      gap: 3.5rem
+   }
+
+   .learn-icons {
+      display: none;
+   }
+
+   .name-rev {
+      text-align: center;
+   }
+
+   .p-icons {
+      justify-content: center;
+   }
+
+   .div-footer {
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+   }
+
+   .footer-head,
+   .p-comp {
+      text-align: center;
+   }
+
+   .appie {
+      align-items: center;
+      padding-right: 0;
+   }
+
+   .tou-supp {
+      justify-content: center;
+   }
+
+   .end {
+      flex-direction: column;
+      gap: 3rem;
+      align-items: center;
+   }
+
+
+}
+
+@media(max-width:380px) {
+   html {
+      font-size: 43%;
+   }
+
+   .btn {
+      padding: 1rem 2rem
+   }
+
+   .container {
+      padding: 0 2.5rem;
+   }
+
+   .app-table {
+      padding: 1.3rem 1rem;
+      gap: .5rem
+   }
+
+   .need {
+      padding-left: 2rem;
+   }
+
+   .plat-forms {
+      padding: 2rem 1rem 4rem 1rem;
+      gap: 2rem
+   }
+
+   .man-vid {
+      padding: 0;
+      margin: 0 auto;
+   }
+
+
+   .apps {
+      flex-wrap: wrap;
+   }
+}
